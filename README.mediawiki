@@ -1,0 +1,39 @@
+== Supervised Machine Learning for Fake News Detection ==
+Visit our wiki at http://perso.sinfronteras.ws/index.php/Supervised_Machine_Learning_for_Fake_News_Detection to know more about this project.
+
+Try the Fake News Detector Web App at http://gofaaas.sinfronteras.ws/fakeNewsDetector
+
+
+<br />
+<br />
+<span style="background:#E6E6FA ">'''In this project, we have created a Supervised Machine Learning Model for Fake News Detection based on three different algorithms:'''</span>
+*Naive Bayes, Support Vector Machine and Gradient Boosting (XGBoost).
+
+
+<br />
+<br />
+'''This repository''' contains a R Library that was created in order to package the Machine Learning Models created. This package contains essentially three functions: '''modelNB()''',  '''modelSVM()''' and '''modelXGBoost()'''. These functions take a news article as argument and (using the Models created) return the authenticity tag («fake (1)» or «reliable (0)»):
+*'''modelNB():''' Based on the the Naive Bayes Model.
+*'''modelSVM():''' Based on the Support Vector Machine Model.
+*'''modelXGBoost():''' Based on the Extreme Gradient Boosting Model.
+
+
+<br />
+<br />
+<span style="background:#E6E6FA ">''' Along with this repository, the other final result of this project is:'''</span>
+*<span style="color:#FF0000">'''http://gofaaas.sinfronteras.ws/fakeNewsDetector'''</span>: This Web Application is a practical GUI to easily interact with the Machine Learning Models created. It allows to determine if a News Article is Fake or Reliable by entering the text into a input field. The input text will be processed by our Machine Learning Models at the back-end and the result will be sent back to the client.
+
+
+<br />
+<br />
+<span style="background:#E6E6FA "> '''The accuracy of the model:'''</span>
+*The Machine Learning Model created (using the Gradient Boosting algorithm) was able to determine the reliability of News Articles with an accuracy of '''78.86%''' we show the accuracy we got for all the models created.
+
+
+<br />
+<br />
+<span style="background:#E6E6FA "> '''What we call Fake News in this project:'''</span>
+*Deliberately distorted information that secretly leaked into the communication process in order to deceive and manipulate (Vladmir Bitman).
+*Therefore, our Machine Learning Models are only able to detect this kind of disinformation: '''Fake News Articles that were''' <span style="color:#FF0000">'''deliberately'''</span> '''created in order to deceive and manipulate'''
+
+
