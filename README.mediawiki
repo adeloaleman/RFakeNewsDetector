@@ -1,7 +1,7 @@
 == Supervised Machine Learning for Fake News Detection ==
-Visit our wiki at http://perso.sinfronteras.ws/index.php/Supervised_Machine_Learning_for_Fake_News_Detection to know more about this project.
+Visit our wiki at http://wiki.sinfronteras.ws/view/Supervised_Machine_Learning_for_Fake_News_Detection to know more about this project.
 
-Try the Fake News Detector Web App at http://gofaaas.sinfronteras.ws/fakeNewsDetector
+Try the Fake News Detector Web App at http://fakenewsdetector.sinfronteras.ws
 
 
 <br />
@@ -12,16 +12,16 @@ Try the Fake News Detector Web App at http://gofaaas.sinfronteras.ws/fakeNewsDet
 
 <br />
 <br />
-'''This repository''' contains a R Library that was created in order to package the Machine Learning Models created. This package contains essentially three functions: '''modelNB()''',  '''modelSVM()''' and '''modelXGBoost()'''. These functions take a news article as argument and (using the Models created) return the authenticity tag («fake (1)» or «reliable (0)»):
-*'''modelNB():''' Based on the the Naive Bayes Model.
-*'''modelSVM():''' Based on the Support Vector Machine Model.
-*'''modelXGBoost():''' Based on the Extreme Gradient Boosting Model.
+'''This repository''' contains a R Library we have created to package the Machine Learning Models built. This package contains essentially three functions: '''modelNB()''',  '''modelSVM()''' and '''modelXGBoost()'''. These functions take a news article as argument and, using the Models created, return the authenticity tag («fake (1)» or «reliable (0)»):
+**'''modelNB():''' Based on the the Naive Bayes Model.
+**'''modelSVM():''' Based on the Support Vector Machine Model.
+**'''modelXGBoost():''' Based on the Extreme Gradient Boosting Model.
 
 
 <br />
 <br />
 <span style="background:#E6E6FA ">''' Along with this repository, the other final result of this project is:'''</span>
-*<span style="color:#FF0000">'''http://gofaaas.sinfronteras.ws/fakeNewsDetector'''</span>: This Web Application is a practical GUI to easily interact with the Machine Learning Models created. It allows to determine if a News Article is Fake or Reliable by entering the text into a input field. The input text will be processed by our Machine Learning Models at the back-end and the result will be sent back to the client.
+*<span style="color:#FF0000">'''http://fakenewsdetector.sinfronteras.ws'''</span>: This is the link to a Web Application that has been created to easily interact with the Machine Learning Models created. It allows us to determine if a News Article is Fake or Reliable by entering the text into an input field. The input text will be processed by the Machine Learning Models at the back-end and the result will be sent back to the client. This Web App was created using [http://shiny.rstudio.com/ Shiny], an R package that can be used to build interactive web apps straight from R.
 
 
 <br />
